@@ -1,0 +1,58 @@
+<style>
+    .left,
+    .main,
+    .right {
+        min-height: 130px;
+    }
+
+    .left {
+        background: green;
+        width: 200px;
+    }
+
+    .main {
+        background-color: blue;
+    }
+
+    .right {
+        background-color: red;
+        width: 300px;
+    }
+
+    .container {
+        padding: 0 300px 0 200px;
+    }
+
+    .left,
+    .main,
+    .right {
+        position: relative;
+        float: left;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .left {
+        left: -200px;
+
+        margin-left: -100%;
+
+    }
+
+    .right {
+        right: -300px;
+        margin-left: -300px;
+
+    }
+</style>
+
+<div class="container">
+
+    <div class="main">main</div>
+
+    <div class="left">left</div>
+
+    <div class="right">right</div>
+</div>

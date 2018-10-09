@@ -1,0 +1,48 @@
+<style>
+    .left,
+    .main,
+    .right {
+        min-height: 130px;
+    }
+
+    .left {
+        background: green;
+        width: 200px;
+    }
+
+    .main {
+        background-color: blue;
+    }
+
+    .right {
+        background-color: red;
+        width: 300px;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .left,
+    .right {
+        position: absolute;
+        top: 0;
+    }
+
+    .right {
+        right: 0;
+    }
+
+    .main {
+        margin: 0 300px 0 200px;
+    }
+</style>
+
+<div class="container">
+
+    <div class="main">main</div>
+
+    <div class="left">left</div>
+
+    <div class="right">right</div>
+</div>
